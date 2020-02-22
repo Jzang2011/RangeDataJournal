@@ -1,5 +1,6 @@
 package com.zang.jeremy;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import com.zang.jeremy.views.PrimaryView;
 import com.zang.jeremy.views.SecondaryView;
 import com.gluonhq.charm.glisten.application.MobileApplication;
@@ -17,7 +18,7 @@ public class Main extends MobileApplication {
     public void init() {
         addViewFactory(PRIMARY_VIEW, () -> new PrimaryView().getView());
         addViewFactory(SECONDARY_VIEW, () -> new SecondaryView().getView());
-
+        System.out.println("This is a change");
         DrawerManager.buildDrawer(this);
     }
 
