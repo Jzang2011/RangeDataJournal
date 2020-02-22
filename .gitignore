@@ -1,0 +1,13 @@
+/RangeDataJournal.iml
+/settings.gradle
+/gradlew.bat
+/gradlew
+/build.gradle
+/RangeDataJournalApp/build/
+
+
+
+/gradle/
+/.idea/
+/.gradle/
+/RangeDataJournalApp/build.gradle
